@@ -1,0 +1,2733 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: Poppins;
+    padding: 0;
+    margin: 0;
+}
+
+/* ٍstart home*/
+.home{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.2rem;
+}
+
+.nav-items{
+    width: 58%; 
+    cursor: pointer 
+}
+
+.nav-items ul{
+    display: flex;
+    justify-content: space-around;   
+}
+
+.nav-items li{
+    list-style: none;
+    font-family: 'Google Sans', sans-serif;
+    font-size: 17px;
+    align-self: center;
+    z-index: 999; 
+}
+
+.signUpBtn{
+    width: 170%;
+    padding: 15%;
+    border: solid 1px black;
+    border-radius: 6px;
+    background-color: transparent;
+    cursor: pointer 
+}
+.logo{
+    margin-left: 2%;
+}
+.layerImg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.whole_content{
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    margin-left: 3.8rem;
+}
+.home_text{
+    align-self: center;
+}
+
+.main_p{
+    font-size: 20px;
+    color: #DF6951;
+    font-weight: 700;
+}
+.home_text h1{
+    font-size: 84px;
+    color: #181E4B;
+    font-weight: 700;
+    font-family: Volkhov;
+    line-height: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+.home_text h1 span{
+    font-size: 84px;
+    color: #181E4B;
+    font-weight: 700;
+    font-family: Volkhov;
+    position: relative;
+    
+}
+.home_text h1 span::after {
+    content: "";
+    position: absolute;
+    height: 0.8rem; 
+    width: 100%; 
+    background-color: #FF7D68; 
+    bottom: 10px; 
+    left: 0;
+    z-index: -1; 
+    border-radius: 30px; 
+}
+.root_p{
+    font-size: 16px;
+    color: #5E6282;
+    font-weight: 400;
+}
+.home_buttons{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+}
+.home_buttons button{
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #F1A501;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Lexend', sans-serif;
+    margin-right: 2rem;
+    border: transparent;
+    box-shadow: 0px 18.05px 31.58px 0px #F1A50126;
+    cursor: pointer;
+}
+
+.home_buttons i{
+    color: #DF6951;
+    font-size: 2.7rem;
+    margin-right: 1rem;
+    text-shadow: 0px 13.54px 27.07px rgba(223, 105, 81, 0.3);
+    cursor: pointer;
+}
+
+.home_buttons span{
+    font-size: 17px;
+    color: #686D77;
+    font-weight: 400;
+}
+
+.airplane_layer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 37%;
+}
+.plane1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:20%;
+
+}
+
+.plane2{
+    position: absolute;
+    bottom: 0;
+    right: 7%;
+    width:20%;
+}
+/* end home*/
+
+
+/* start service*/
+.service{
+margin-top: 8rem;
+}
+.head_service{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.head_service .row {
+    font-size: 22px;
+    flex-wrap: nowrap;
+    color: #E5E5E5;
+    font-family: Roboto;
+    font-weight: 400;
+}
+.empty{
+    width: 10%;
+}
+.row p{
+    letter-spacing: 0.5rem; 
+}
+.first_plus{
+    color: #FF7152;
+}
+.second_plus{
+    color: #6246E5;
+}
+.third_plus{
+    visibility: hidden;
+}
+.service_text{
+    text-align: center;
+}
+.service_text h6{
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 600;
+}
+.service_text h1{
+    color: #14183E;
+    font-size: 50px;
+    font-family: Volkhov;
+    font-weight: 700;
+}
+.categories{
+    display: flex;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 2rem;
+    text-align: center;
+}
+.cat_1 img,  .cat_3 img, .cat_4 img {
+    margin-top: 2.5rem;
+}
+.cat_1 h3,  .cat_3 h3, .cat_4 h3 {
+    margin-top: 2.5rem;
+}
+.catRed{
+    margin-top: 2.7rem;
+}
+.cat_1 h3, .cat_2 h3,  .cat_3 h3, .cat_4 h3 {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1E1D4C;
+}
+.cat_1 p, .cat_2 p,  .cat_3 p, .cat_4 p {
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5E6282;
+}
+.card-container {
+    position: relative; 
+}
+.cat_1, .cat_2,  .cat_3, .cat_4 {
+    position: relative;
+    padding: 3rem;
+    border-radius: 36px;
+    transition: all 0.3s ease;
+    z-index: 2;
+    background-color: white;
+}
+
+.red_img{
+    position: absolute;
+    width: 30%;
+    right: 13.5rem;
+    top: 20rem;
+    opacity: 0;
+    z-index:1;
+    transition: opacity 0.3s ease;
+}
+
+.card-container:hover .cat_1,
+.card-container:hover .cat_2,
+.card-container:hover .cat_3,
+.card-container:hover .cat_4 {
+    transform: translateY(-10px);
+    box-shadow: 0px 1.85px 3.15px 0px #00000001, 0px 8.15px 6.52px 0px #00000002, 0px 20px 13px 0px #00000003, 
+                0px 38.52px 25.48px 0px #00000003, 0px 64.81px 46.85px 0px #00000004, 0px 100px 80px 0px #00000005;
+    z-index: 2; 
+}
+.card-container:hover .red_img {
+    opacity: 1;
+}
+/* End service*/
+
+/* start Destinations*/
+.destinations{
+    margin-top: 8rem;
+    position: relative;
+    height: 95vh;
+}
+
+.head_d_text{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.head_d_text h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #5E6282;
+    margin-bottom: 1rem;
+}
+
+.head_d_text h1{
+    font-size: 50px;
+    font-family: Volkhov;
+    font-weight: 700;
+    color: #14183E;
+    margin: 0;
+}
+
+.des_container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: auto;
+}
+
+.card{
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 
+                0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 
+                0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481);
+    width: 25%;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card_img{
+    height: 25rem;
+}
+
+.card_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px 24px 0 0;
+}
+
+.card_text{
+    padding: 20px 25px;
+}
+
+.location_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    color: #5E6282;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.trip_info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 16px;
+    line-height: 125%;
+    font-weight: 400;
+    color: #5E6282;
+}
+.last-card {
+    position: relative;
+}
+
+.decorative_img {
+    position: absolute;
+    left: 90%; 
+    top: 64%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+/* End Destinations*/
+
+/* start Booking*/
+.booking{
+    width:85%;
+    margin: 0 auto;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-around;
+}
+.left_booking_content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.left_booking_content h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #5E6282;
+}
+.left_booking_content h1{
+    font-size: 50px;
+    font-family: Volkhov;
+    font-weight: 700;
+    color: #14183E;
+    margin-bottom: 2rem;
+}
+
+.icon_text {
+    display: flex;
+    flex-direction: column;
+    color: #5E6282;
+    line-height: 125%;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 0.5rem;
+}
+.icon_text h3{
+    font-weight: 700;
+}
+.icons_img {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+.icons_img img {
+    align-self: center;
+}
+.right_booking_content{
+    display: flex;
+   align-items: center;
+}
+.booking_card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem ;
+    border-radius: 26px;
+    box-shadow: 
+        0px 12px 30px rgba(0, 0, 0, 0.07),
+        
+        0px -80px 100px -15px rgba(113, 189, 255, 0.4),
+        
+        80px 0px 100px -20px rgba(113, 189, 255, 0.35);
+    gap: 1rem;
+    position: relative;
+}
+.booking_trip_info{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.booking_trip_info h5{
+    color: #080809;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: 1.5%;
+}
+.booking_trip_info h6{
+    color: #84829A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.5%;
+}
+.trip_icons{
+    display: flex;
+    gap: 1rem;
+}
+.vistors{
+    display: flex;
+    gap: 1rem;
+}
+.heart{
+    margin-left: auto;
+}
+.vistors span{
+    color: #84829A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -2%;
+}
+.booking_card2{
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    padding: 2rem ;
+    border-radius: 18px;
+    box-shadow: 0px 1.85px 3.15px 0px #00000001, 0px 8.15px 6.52px 0px #00000002, 0px 20px 13px 0px #00000003, 
+                0px 38.52px 25.48px 0px #00000003, 0px 64.81px 46.85px 0px #00000004, 0px 100px 80px 0px #00000005;
+    gap: 1rem;
+    position: absolute;
+    z-index: 2;
+    right: -31%;
+    bottom: 13%;
+}
+.content_card2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.content_card2 h6{
+    color: #84829A;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 125%;
+    letter-spacing: -3.5%;
+}
+.content_card2 h4{
+    color: #080809;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: -1.5%;
+    margin-bottom: 0.5rem;
+}
+.content_card2 p{
+    color: #080809;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 125%;
+    letter-spacing: -5.5%;
+}
+.content_card2 p span{ 
+    color: #8A79DF;
+}
+/* End Booking*/
+
+/* Start Testimonials*/
+.Testimonials{
+    width:84%;
+    margin: 0 auto;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.left_text_Testimonials{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.left_text_Testimonials h5{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #5E6282;
+    margin-top: 1.5rem;
+}
+.left_text_Testimonials h1{
+    font-weight: 700;
+    font-family: Volkhov;
+    font-size: 50px;
+    line-height: 100%;
+    color: #14183E;
+    margin-bottom: 4rem;
+}
+.dots{
+    display: flex;
+    gap: 1.5rem;
+}
+.dots span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #E5E5E5;
+}
+.special_dot{
+    background-color: #39425D !important; 
+}
+.right_slide_show{
+    position: relative;
+    height: 40vh;
+    padding: 2rem;
+}
+.testimonials_card{
+    background-color: white;
+    padding: 2rem ;
+    border-radius: 10px;
+    box-shadow: 0px 1.85px 3.15px 0px #00000001, 0px 8.15px 6.52px 0px #00000002, 0px 20px 13px 0px #00000003, 
+    0px 38.52px 25.48px 0px #00000003, 0px 64.81px 46.85px 0px #00000004, 0px 100px 80px 0px #00000005;
+    position: relative;
+    z-index: 1;
+}
+.testimonials_card_text{
+    color: #5E6282;
+}
+.testimonials_card_text p{
+    margin-bottom: 2.5rem;
+    line-height: 32px;
+    font-size: 16px;
+}
+.testimonials_card_text h4{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+    line-height: 100%;
+}
+.testimonials_card_text h6{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+}
+.right_slide_show img {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    z-index: 2;
+}
+.testimonials_card2{
+    background-color: white;
+    padding: 2rem ;
+    border-radius: 10px;
+    box-shadow: 0px 1.85px 3.15px 0px #00000001, 0px 8.15px 6.52px 0px #00000002, 0px 20px 13px 0px #00000003, 
+    0px 38.52px 25.48px 0px #00000003, 0px 64.81px 46.85px 0px #00000004, 0px 100px 80px 0px #00000005;
+    position: absolute;
+    top: 33%;
+    left: 20%;
+    z-index: 0;
+    border: 2px solid #F7F7F7;
+}
+.testimonials_card_text2{
+    color: #5E6282;
+}
+.testimonials_card_text2 h4{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+    line-height: 100%;
+}
+.testimonials_card_text2 h6{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+}
+.arrows{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    right: 0;
+    gap: 2.5rem;
+}
+.special_i{
+    color: #BCB7C2;
+}
+/* End Testimonials*/
+
+/* Start flights*/
+.flights{
+    width:84%;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+
+.flight_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flights img{
+    transition: all 0.3s ease;
+}
+
+.flights img:hover{
+    transform: scale(1.05);
+    border-radius: 10px;
+    box-shadow: 0px 1.85px 3.15px 0px #00000001, 0px 8.15px 6.52px 0px #00000002, 0px 20px 13px 0px #00000003, 
+    0px 38.52px 25.48px 0px #00000003, 0px 64.81px 46.85px 0px #00000004, 0px 100px 80px 0px #00000005;
+}
+/* End flights*/
+
+/* Start subscription*/
+.subscription{
+    width:95%;
+    height: 58vh;
+    margin: 0 auto;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;    
+}
+.subscription_whole{
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, rgba(223, 215, 249, 0.2), rgba(223, 215, 249, 0.2));
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    gap: 6rem;
+    border-radius: 129px 20px 20px 20px;
+    position: relative;
+    z-index: 2;
+}
+.subscription h2{
+    color: #5E6282;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 54px;
+    text-align: center;
+    margin-top: 2rem;
+}
+.subscription_content {
+    display: flex;
+    gap: 1.5rem;
+}
+.email {
+    width: 421px;
+    height: 68px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.email::placeholder{
+    padding: 1rem;
+    color: #39425D;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    font-family: Montserrat;
+}
+.Subscribe_button{
+    width: 180px;
+    height: 68px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(to bottom, #FF946D, #FF7D68);
+    color: white;
+    font-family: 'Google Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 100%;
+}
+.telegram_img{
+    position: absolute;
+    right: -1%;
+    top: -4%;
+}
+.row2{
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.row2 p{
+    letter-spacing: 0.5rem; 
+    color: rgba(229, 229, 229);
+}
+/* End subscription*/
+
+/* Start footer*/
+footer{
+    width: 85%;
+    height: 40vh;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+.whole_footer_content{
+    display: flex;
+    justify-content: space-around;
+}
+.first_sections{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.first_sections h1{
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 100%;
+    color: #181E4B;
+}
+.first_sections h5{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 125%;
+    color: #5E6282;
+}
+.second_sections{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.second_sections h3{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 125%;
+    color: #080809;
+}
+.second_sections p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #5E6282;
+}
+.third_sections{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.third_sections h3{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 125%;
+    color: #080809;
+}
+.third_sections p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #5E6282;
+}
+.fourth_sections{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.fourth_sections h3{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 125%;
+    color: #080809;
+}
+.fourth_sections p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #5E6282;
+}
+.fifth_sections{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.fifth_sections h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0.5%;
+    display: flex;
+    color: #5E6282;
+}
+footer h6{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 125%;
+    color: #5E6282;
+    margin-top: 4rem;
+}
+/* End footer*/
+
+
+/* start media querey*/
+@media screen and (min-width: 1600px) {
+    .home {
+        height: 100vh;
+        max-width: 1800px;
+        margin: 0 auto;
+    }
+    
+    nav {
+        max-width: 1500px;
+        margin: 2rem auto;
+        padding: 0 2%;
+    }
+    
+    .nav-items {
+        width: 50%;
+    }
+    
+    .nav-items li {
+        font-size: 18px;
+    }
+    
+    .logo img {
+        width: 110%;
+    }
+    
+    .signUpBtn {
+        width: 180%;
+        padding: 18%;
+        background-color: transparent;
+        border-radius: 5px;
+    }
+    
+    .whole_content {
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: 3rem;
+        justify-content: space-between;
+    }
+    
+    .home_text {
+        width: 45%;
+    }
+    
+    .home_img {
+        width: 45%;
+    }
+    
+    .home_text h1 {
+        font-size: 100px;
+        line-height: 6rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .home_text h1 span {
+        font-size: 100px;
+    }
+    
+    .home_text h1 span::after {
+        height: 1rem;
+        bottom: 12px;
+    }
+    
+    .main_p {
+        font-size: 24px;
+    }
+    
+    .root_p {
+        font-size: 18px;
+        margin-bottom: 1.5rem;
+        line-height: 1.6;
+        color: #5E6282;
+        max-width: 90%;
+    }
+    
+    .home_buttons {
+        margin-top: 3rem;
+    }
+    
+    .home_buttons button {
+        width: 200px;
+        height: 70px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .home_buttons i {
+        font-size: 3.2rem;
+    }
+    
+    .home_buttons span {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .home_img img {
+        width: 110%;
+    }
+    
+    .layerImg img {
+        width: 110%;
+    }
+    
+    .airplane_layer {
+        width: 55%;
+        height: 40%;
+    }
+
+    /* service*/
+    .service {
+        margin-top: 10rem;
+        max-width: 1800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .head_service {
+        width: 85%;
+    }
+    
+    .head_service .row {
+        font-size: 24px;
+    }
+    
+    .service_text h6 {
+        font-size: 20px;
+    }
+    
+    .service_text h1 {
+        font-size: 60px;
+    }
+    
+    .categories {
+        width: 75%;
+        margin-top: 3rem;
+    }
+    
+    .cat_1, .cat_2, .cat_3, .cat_4 {
+        padding: 4rem;
+    }
+    
+    .cat_1 h3, .cat_2 h3, .cat_3 h3, .cat_4 h3 {
+        font-size: 22px;
+    }
+    
+    .cat_1 p, .cat_2 p, .cat_3 p, .cat_4 p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .red_img {
+        width: 25%;
+        left: 0rem;
+        top: 22rem;
+    }
+
+    /* destenation */
+    .destinations {
+        margin-top: 10rem;
+        height: auto;
+        max-width: 1800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .head_d_text {
+        margin-bottom: 5rem;
+    }
+    
+    .head_d_text h3 {
+        font-size: 20px;
+    }
+    
+    .head_d_text h1 {
+        font-size: 60px;
+    }
+    
+    .des_container {
+        width: 75%;
+        gap: 3rem;
+    }
+    
+    .card {
+        width: 28%;
+    }
+    
+    .card_img {
+        height: 28rem;
+    }
+    
+    .card_text {
+        padding: 30px 35px;
+    }
+    
+    .location_price {
+        font-size: 20px;
+    }
+    
+    .trip_info {
+        font-size: 18px;
+    }
+    
+    .decorative_img {
+        left: 95%;
+        top: 60%;
+    }
+
+    /* booking */
+    .booking {
+        width: 80%;
+        margin-top: 10rem;
+        justify-content: space-between;
+        max-width: 1800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .left_booking_content {
+        width: 45%;
+    }
+    
+    .left_booking_content h6 {
+        font-size: 20px;
+    }
+    
+    .left_booking_content h1 {
+        font-size: 60px;
+        margin-bottom: 3rem;
+    }
+    
+    .icon_text {
+        font-size: 18px;
+    }
+    
+    .icons_img {
+        gap: 2rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .right_booking_content {
+        width: 45%;
+    }
+    
+    .booking_card {
+        padding: 2.5rem;
+        gap: 1.5rem;
+    }
+    
+    .booking_trip_info h5 {
+        font-size: 20px;
+    }
+    
+    .booking_trip_info h6 {
+        font-size: 18px;
+    }
+    
+    .vistors span {
+        font-size: 18px;
+    }
+    
+    .booking_card2 {
+        padding: 2.5rem;
+        right: -25%;
+        bottom: 15%;
+    }
+    
+    .content_card2 h6 {
+        font-size: 16px;
+    }
+    
+    .content_card2 h4 {
+        font-size: 20px;
+    }
+    
+    .content_card2 p {
+        font-size: 16px;
+    }   
+
+    /* Testimonials */
+    .Testimonials {
+        width: 80%;
+        margin-top: 10rem;
+        justify-content: space-between;
+        max-width: 1800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .left_text_Testimonials {
+        width: 40%;
+    }
+    
+    .left_text_Testimonials h5 {
+        font-size: 20px;
+    }
+    
+    .left_text_Testimonials h1 {
+        font-size: 60px;
+        margin-bottom: 5rem;
+    }
+    
+    .dots span {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .right_slide_show {
+        width: 50%;
+        height: 45vh;
+    }
+    
+    .testimonials_card {
+        padding: 2.5rem;
+    }
+    
+    .testimonials_card_text p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    
+    .testimonials_card_text h4 {
+        font-size: 20px;
+    }
+    
+    .testimonials_card_text h6 {
+        font-size: 16px;
+    }
+    
+    .testimonials_card2 {
+        padding: 2.5rem;
+        top: 35%;
+        left: 25%;
+    }
+    
+    .arrows {
+        right: 2%;
+        font-size: 20px;
+    }
+
+    /* flights */
+    .flights {
+        width: 80%;
+        margin-top: 10rem;
+        max-width: 1800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .flight_container {
+        gap: 2rem;
+    }
+    
+    .flights img {
+        transform: scale(1.1);
+    }
+    
+    .flights img:hover {
+        transform: scale(1.15);
+    }
+
+    /* sub */
+    .subscription {
+        width: 90%;
+        height: auto;
+        margin-top: 10rem;
+        max-width: 1800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .subscription_whole {
+        width: 75%;
+        padding: 4rem;
+        gap: 7rem;
+    }
+    
+    .subscription h2 {
+        font-size: 38px;
+        line-height: 60px;
+    }
+    
+    .subscription_content {
+        gap: 2rem;
+    }
+    
+    .email {
+        width: 480px;
+        height: 75px;
+    }
+    
+    .Subscribe_button {
+        width: 200px;
+        height: 75px;
+        font-size: 18px;
+    }
+    
+    .telegram_img {
+        right: -2%;
+        top: -6%;
+        transform: scale(1.1);
+    }
+
+    /* footer */
+    footer {
+        width: 80%;
+        height: auto;
+        margin-top: 10rem;
+        max-width: 1800px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 2rem;
+    }
+    
+    .whole_footer_content {
+        justify-content: space-between;
+    }
+    
+    .first_sections {
+        gap: 2rem;
+    }
+    
+    .first_sections h1 {
+        font-size: 50px;
+    }
+    
+    .first_sections h5 {
+        font-size: 15px;
+    }
+    
+    .second_sections, .third_sections, .fourth_sections {
+        gap: 2rem;
+    }
+    
+    .second_sections h3, .third_sections h3, .fourth_sections h3 {
+        font-size: 23px;
+    }
+    
+    .second_sections p, .third_sections p, .fourth_sections p {
+        font-size: 19px;
+    }
+    
+    .fifth_sections {
+        gap: 1.5rem;
+    }
+    
+    .fifth_sections h4 {
+        font-size: 22px;
+    }
+    
+    footer h6 {
+        margin-top: 5rem;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1201px) {
+    
+    nav {
+        padding: 0 3%;  
+    }
+    
+    .nav-items {
+        width: 90%;
+    }
+    
+    .whole_content {
+        justify-content: space-between;
+        padding: 0 5%;
+        margin-left: 0;
+    }
+    
+    .home_text {
+        width: 48%;
+    }
+    
+    .home_img {
+        width: 65%;
+    }
+    
+    .home_text h1 {
+        font-size: 55px;
+        line-height: 3.5rem;
+    }
+    
+    .home_text h1 span {
+        font-size: 55px;
+    }
+    
+    .main_p {
+        font-size: 16px;
+    }
+    
+    .airplane_layer {
+        width: 50%;
+        height: 40%;
+    }
+    /* service*/
+    .service {
+        margin-top: 7rem;
+    }
+    
+    .head_service {
+        width: 90%;
+    }
+    
+    .head_service .row {
+        font-size: 20px;
+    }
+    
+    .categories {
+        width: 90%;
+    }
+    
+    .cat_1, .cat_2, .cat_3, .cat_4 {
+        padding: 2.5rem;
+    }
+    
+    .red_img {
+        width: 25%;
+        left: 0rem;
+        top: 20rem;
+    }
+
+    /* start destination */
+    .destinations {
+        margin-top: 7rem;
+        height: auto;
+    }
+    
+    .des_container {
+        width: 90%;
+        gap: 2.5rem;
+    }
+    
+    .card {
+        width: 28%;
+    }
+    
+    .card_img {
+        height: 22rem;
+    }
+    
+    .decorative_img {
+        left: 85%;
+        top: 60%;
+        transform: scale(0.9) translateY(-50%);
+    }
+
+    /* booking */
+    .booking {
+        width: 90%;
+    }
+    
+    .left_booking_content {
+        width: 48%;
+    }
+    
+    .right_booking_content {
+        width: 42%;
+    }
+    
+    .booking_card2 {
+        right: -25%;
+        bottom: 12%;
+    }
+
+    /* Testimonials */
+    .Testimonials {
+        width: 90%;
+    }
+    
+    .left_text_Testimonials {
+        width: 30%;
+    }
+    
+    .right_slide_show {
+        width: 30%;
+        position: relative;
+    }
+    
+    .testimonials_card2 {
+        position: absolute;
+        top: 52%;
+        left: 30%;
+    }
+
+    /* flights */
+    .flights {
+        width: 90%;
+        margin-top: 7rem;
+    }
+    
+    .flight_container {
+        justify-content: space-around;
+        gap: 1.5rem;
+    }
+
+    /* sub */
+    .subscription {
+        width: 90%;
+        height: auto;
+        margin-top: 7rem;
+    }
+    
+    .subscription_whole {
+        width: 85%;
+        padding: 3rem;
+        gap: 5rem;
+        position: relative;
+    }
+    
+    .subscription h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    
+    .telegram_img {
+        right: -1%;
+        top: -5%;
+    }
+    .row2{
+        position: absolute;
+        right: -5%;
+        bottom: -14%;
+    }
+
+    /* footer */
+    footer {
+        width: 90%;
+        height: auto;
+        margin-top: 7rem;
+        padding-bottom: 2rem;
+    }
+    
+    .whole_footer_content {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+    .nav-items {
+        width: 60%;
+    }
+    .whole_content {
+        margin-left: 6rem;
+        justify-content: space-between;
+        margin-top: 5rem;
+    }
+    
+    .home_text {
+        width: 50%;
+    }
+    
+    .home_img {
+        width: 50%;
+    }
+    
+    .home_text h1 {
+        font-size: 60px;
+        line-height: 4.5rem;
+    }
+    
+    .home_text h1 span {
+        font-size: 60px;
+    }
+    
+    .main_p {
+        font-size: 17px;
+    }
+    
+    .root_p {
+        font-size: 15px;
+    }
+    
+    .home_img img {
+        width: 100%;
+    }
+    
+    .airplane_layer {
+        width: 50%;
+        height: 35%;
+    }
+    .plane1{
+        left: -20%;
+        bottom: -20%;
+    }
+    .plane2{
+        bottom: -20%;
+        right: 0;
+    }
+    /* service*/
+    .service {
+        margin-top: 6rem;
+    }
+    
+    .head_service {
+        width: 95%;
+    }
+    
+    .head_service .row {
+        font-size: 18px;
+    }
+    
+    .row p {
+        letter-spacing: 0.4rem;
+    }
+    
+    .service_text h6 {
+        font-size: 16px;
+    }
+    
+    .service_text h1 {
+        font-size: 45px;
+    }
+    
+    .categories {
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .card-container {
+        width: 45%;
+    }
+    
+    .cat_1, .cat_2, .cat_3, .cat_4 {
+        padding: 2rem;
+    }
+    
+    .red_img {
+        width: 15%;
+        left: 0rem;
+        top: 18.5rem;
+    }
+    /* start destination */
+    .destinations {
+        margin-top: 6rem;
+        height: auto;
+        margin-bottom: 4rem;
+    }
+    
+    .head_d_text h3 {
+        font-size: 16px;
+    }
+    
+    .head_d_text h1 {
+        font-size: 45px;
+    }
+    
+    .des_container {
+        width: 95%;
+        gap: 1.5rem;
+    }
+    
+    .card {
+        width: 30%;
+    }
+    
+    .card_img {
+        height: 20rem;
+    }
+    
+    .card_text {
+        padding: 15px 20px;
+    }
+    
+    .location_price {
+        font-size: 16px;
+    }
+    
+    .trip_info {
+        font-size: 14px;
+        gap: 0.8rem;
+    }
+    
+    .decorative_img {
+        left: 80%;
+        top: 60%;
+        transform: scale(0.8) translateY(-50%);
+    }
+
+    /* booking */
+    .booking {
+        width: 95%;
+        margin-top: 6rem;
+    }
+    
+    .left_booking_content {
+        width: 52%;
+    }
+    
+    .left_booking_content h6 {
+        font-size: 16px;
+    }
+    
+    .left_booking_content h1 {
+        font-size: 40px;
+        margin-bottom: 1.5rem;
+    }
+    
+    .icon_text {
+        font-size: 15px;
+    }
+    
+    .icon_text h3 {
+        font-size: 16px;
+    }
+    
+    .icons_img {
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .booking_card {
+        padding: 1.5rem;
+        scale: 0.9;
+    }
+    
+    .booking_trip_info {
+        gap: 1rem;
+    }
+    
+    .booking_trip_info h5 {
+        font-size: 16px;
+    }
+    
+    .booking_trip_info h6 {
+        font-size: 15px;
+    }
+    
+    .vistors span {
+        font-size: 15px;
+    }
+    
+    .booking_card2 {
+        padding: 1.5rem;
+        right: -20%;
+        bottom: 10%;
+        scale: 0.85;
+    }
+    
+    .icon_text p br {
+        display: none;
+    }
+    /* Testimonials */
+    .Testimonials {
+        width: 95%;
+        margin-top: 6rem;
+    }
+    
+    .left_text_Testimonials {
+        width: 40%;
+    }
+    
+    .left_text_Testimonials h5 {
+        font-size: 16px;
+    }
+    
+    .left_text_Testimonials h1 {
+        font-size: 40px;
+        margin-bottom: 3rem;
+    }
+    
+    .right_slide_show {
+        width: 55%;
+        height: 38vh;
+        padding: 1.5rem;
+    }
+    
+    .testimonials_card {
+        padding: 1.5rem;
+    }
+    
+    .testimonials_card_text p {
+        font-size: 15px;
+        line-height: 28px;
+        margin-bottom: 2rem;
+    }
+    
+    .testimonials_card_text p br {
+        display: none;
+    }
+    
+    .testimonials_card_text h4 {
+        font-size: 16px;
+    }
+    
+    .testimonials_card_text h6 {
+        font-size: 13px;
+    }
+    
+    .testimonials_card2 {
+        padding: 1.5rem;
+        top: 38%;
+        left: 15%;
+        scale: 0.9;
+    }
+    
+    .testimonials_card_text2 p br {
+        display: none;
+    }
+    
+    .arrows {
+        right: 0;
+        gap: 2rem;
+    }
+
+    /* flights */
+    .flights {
+        width: 95%;
+        margin-top: 6rem;
+    }
+    
+    .flight_container {
+        gap: 1rem;
+    }
+    
+    .flights img {
+        max-width: 90%;
+    }
+
+    /* sub */
+    .subscription {
+        width: 85%;
+        height: auto;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+    }
+    
+    .subscription_whole {
+        width: 90%;
+        padding: 2.5rem;
+        gap: 4rem;
+        position: relative;
+    }
+    
+    .subscription h2 {
+        font-size: 28px;
+        line-height: 45px;
+    }
+    
+    .subscription h2 br {
+        display: none;
+    }
+    
+    .subscription_content {
+        gap: 1rem;
+    }
+    
+    .email {
+        width: 350px;
+        height: 60px;
+    }
+    
+    .Subscribe_button {
+        width: 160px;
+        height: 60px;
+        font-size: 16px;
+    }
+    
+    .telegram_img {
+        right: -1%;
+        top: -5%;
+        transform: scale(0.9);
+    }
+    
+    .row2 {
+        position: absolute;
+        right: -6%;
+        bottom: -15%;
+        transform: scale(0.9);
+    }
+
+    /* footer */
+    footer {
+        width: 95%;
+        height: auto;
+        margin-top: 6rem;
+        padding-bottom: 2rem;
+    }
+    
+    .whole_footer_content {
+        justify-content: space-between;
+    }
+    
+    .first_sections h1 {
+        font-size: 38px;
+    }
+    
+    .first_sections h5 {
+        font-size: 12px;
+    }
+    
+    .second_sections h3, .third_sections h3, .fourth_sections h3 {
+        font-size: 18px;
+    }
+    
+    .second_sections p, .third_sections p, .fourth_sections p {
+        font-size: 16px;
+    }
+    
+    .fifth_sections h4 {
+        font-size: 18px;
+    }
+    
+    .app_img img {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    .nav-items {
+        width: 70%;
+    }
+    
+    .whole_content {
+        padding: 0 0%;
+    }
+    
+    .home_text {
+        order: 0;
+        margin-top: 2rem;
+        width: 80%;
+        margin: 2rem auto 0;
+        padding: 0 15px;
+    }
+    
+    .home_img {
+        order: 1;
+        margin: 1rem auto 0;
+        width: 90%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    .home_img img{
+        width: 100%;
+    }
+    
+    .home_text h1 {
+        font-size: 55px;
+        line-height: 4rem;
+    }
+    
+    .home_text h1 span {
+        font-size: 55px;
+    }
+    
+    .main_p {
+        font-size: 16px;
+    }
+    
+    .root_p {
+        font-size: 16px;
+    }
+    
+    .home_buttons {
+        justify-content: center;
+    }
+    .home_buttons{
+        margin-right: 2.5rem;
+    }
+    
+    .root_p br {
+        display: none;
+    }
+
+    .layerImg img {
+        display: none;
+    }
+    
+    .airplane_layer {
+        display: none;
+    }
+    /* service*/
+    .service {
+        margin-top: 6rem;
+    }
+    
+    .head_service {
+        width: 95%;
+    }
+    
+    .head_service .row {
+        font-size: 18px;
+    }
+    
+    .row p {
+        letter-spacing: 0.4rem;
+    }
+    
+    .service_text h6 {
+        font-size: 16px;
+    }
+    
+    .service_text h1 {
+        font-size: 45px;
+    }
+    
+    .categories {
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .card-container {
+        width: 47%;
+    }
+    
+    .cat_1, .cat_2, .cat_3, .cat_4 {
+        padding: 2rem;
+    }
+    
+    .red_img {
+        width: 15%;
+        left: 0rem;
+        top: 19rem;
+    }
+    
+    /* start destination */
+    .destinations {
+        margin-top: 5rem;
+        height: auto;
+        margin-bottom: 4rem;
+    }
+    
+    .head_d_text {
+        margin-bottom: 3rem;
+    }
+    
+    .head_d_text h3 {
+        font-size: 16px;
+    }
+    
+    .head_d_text h1 {
+        font-size: 40px;
+    }
+    
+    .des_container {
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .card {
+        width: 30%;
+        margin-bottom: 2rem;
+    }
+    
+    .card_img {
+        height: 18rem;
+    }
+    
+    .last-card {
+        width: 30%;
+    }
+    
+    .decorative_img {
+        left: 80%;
+        top: 60%;
+        transform: scale(0.8) translateY(-50%);
+    }
+    /* booking */
+    .booking {
+        width: 90%;
+        margin-top: 5rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+    
+    .left_booking_content {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .left_booking_content h1 {
+        font-size: 35px;
+    }
+    
+    .booking_icons {
+        width: 85%;
+    }
+    
+    .icons_img {
+        justify-content: flex-start;
+        text-align: left;
+    }
+    
+    .right_booking_content {
+        width: 60%;
+        margin-bottom: 6rem;
+    }
+    
+    .booking_card {
+        width: 100%;
+    }
+    
+    .booking_card2 {
+        right: -15%;
+        bottom: 15%;
+    }
+
+    /* Testimonials */
+    .Testimonials {
+        width: 90%;
+        margin-top: 5rem;
+        gap: 4rem;
+    }
+    
+    .left_text_Testimonials {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .left_text_Testimonials h1 {
+        font-size: 35px;
+        margin-bottom: 2rem;
+    }
+    
+    .dots {
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    
+    .right_slide_show {
+        width: 80%;
+        height: 42vh;
+        margin-bottom: 4rem;
+    }
+    
+    .right_slide_show img {
+        left: 0%;
+        transform: translateX(-50%);
+    }
+    
+    .testimonials_card {
+        margin: 0 auto;
+        width: 90%;
+
+    }
+    .testimonials_card_text p {
+        font-size: 13px;
+        line-height: 28px;
+    }
+    
+    .testimonials_card_text h4 {
+        font-size: 15px;
+    }
+    
+    .testimonials_card_text h6 {
+        font-size: 11px;
+    }
+    
+    .testimonials_card2 {
+        padding: 1.5rem;
+        top: 40%;
+        right: -18%;
+        scale: 0.9;
+    }
+    .testimonials_card_text2 p {
+        font-size: 13px;
+        line-height: 28px;
+    }
+    
+    .testimonials_card_text2 h4 {
+        font-size: 15px;
+    }
+    
+    .testimonials_card_text2 h6 {
+        font-size: 11px;
+    }
+    
+    .arrows {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        right: 0;
+    }
+
+    /* flights */
+    .flights {
+        width: 90%;
+        margin-top: 5rem;
+    }
+    
+    .flight_container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        row-gap: 3rem;
+    }
+    
+    .flight_container a {
+        width: 28%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .flights img {
+        max-width: 80%;
+    }
+
+    /* sub */
+    .subscription {
+        width: 95%;
+        height: auto;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .subscription_whole {
+        width: 95%;
+        padding: 2rem 1.5rem;
+        gap: 3rem;
+        position: relative;
+    }
+    
+    .subscription h2 {
+        font-size: 26px;
+        line-height: 40px;
+        margin-top: 1rem;
+    }
+    
+    .subscription h2 br {
+        display: none;
+    }
+    
+    .subscription_content {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+    
+    .email {
+        width: 80%;
+        height: 60px;
+    }
+    
+    .Subscribe_button {
+        width: 80%;
+        max-width: 200px;
+        height: 60px;
+        font-size: 16px;
+    }
+    
+    .telegram_img {
+        right: 1%;
+        top: -5%;
+        transform: scale(0.8);
+    }
+    
+    .row2 {
+        position: absolute;
+        bottom: -15%;
+    }
+
+    /* footer */
+    footer {
+        width: 95%;
+        height: auto;
+        margin-top: 5rem;
+        padding-bottom: 2rem;
+    }
+    
+    .whole_footer_content {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+    
+    .first_sections {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .fifth_sections h4{
+        font-size: 17px;
+    }
+    
+    .second_sections, .third_sections, .fourth_sections {
+        width: 20%;
+    }
+    
+    .fifth_sections {
+        width: 20%;
+    }
+    
+    .social_icons img {
+        width: 100%;
+    }
+    
+    .app_img {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .app_img{
+        display: flex;
+        flex-direction: row !important;
+    }
+    .app_img img {
+        width: 50%;
+ 
+    }
+    
+    footer h6 {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 3rem;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0.5rem;
+        padding-top: 0.5rem;
+    }
+    
+    .logo {
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .nav-items {
+        width: 90%;
+    }
+    
+    .nav-items ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 45px;
+        padding: 0;
+    }
+    
+    .nav-items li {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .whole_content {
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+        padding: 0 4%;
+    }
+    
+    .home_text {
+        order: 1;
+        margin-top: 1.5rem;
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .home_img {
+        order: 0;
+        margin: 1rem auto 0;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }
+    .home_img img{
+        width: 100%;
+    }
+    .home_text h1 {
+        font-size: 48px;
+        line-height: 3.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: #181E4B;
+    }
+    
+    .home_text h1 span {
+        font-size: 48px;
+    }
+    
+    .home_text h1 span::after {
+        height: 0.6rem;
+        bottom: 5px;
+    }
+    
+    .root_p {
+        font-size: 14px;
+        padding: 0 10px;
+        line-height: 1.5;
+    }
+    
+    .home_buttons {
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+    
+    .home_buttons button {
+        width: 140px;
+        height: 50px;
+        font-size: 16px;
+        margin-right: 1rem;
+    }
+    
+    .home_buttons i {
+        font-size: 2rem;
+    }
+    
+    .home_buttons span {
+        font-size: 15px;
+    }
+    
+    .layerImg img {
+        display: none;
+    }
+    
+    .airplane_layer {
+        display: none;
+    }
+    /* service*/
+    .service {
+        margin-top: 6rem;
+    }
+    
+    .head_service {
+        width: 100%;
+    }
+    
+    .head_service .row {
+        font-size: 10px;
+        width: 20%;
+    }
+    
+    .row p {
+        letter-spacing: 0.2rem;
+    }
+    
+    .service_text h6 {
+        font-size: 17px;
+    }
+    
+    .service_text h1 {
+        font-size: 45px;
+    }
+    
+    .categories {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .card-container {
+        width: 60%;
+    }
+    
+    .cat_1, .cat_2, .cat_3, .cat_4 {
+        padding: 2rem;
+    }
+    
+    .red_img {
+        width: 14%;
+        left: 0rem;
+        top: 19.5rem;
+    }
+
+    /* start destination */
+    .destinations {
+        margin-top: 4rem;
+        height: auto;
+        margin-bottom: 4rem;
+    }
+    
+    .head_d_text {
+        margin-bottom: 2.5rem;
+    }
+    
+    .head_d_text h3 {
+        font-size: 16px;
+    }
+    
+    .head_d_text h1 {
+        font-size: 32px;
+    }
+    
+    .des_container {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .card {
+        width: 85%;
+        max-width: 350px;
+    }
+    
+    .card_img {
+        height: 16rem;
+    }
+    
+    .card_text {
+        padding: 15px 20px;
+    }
+    
+    .location_price {
+        font-size: 16px;
+    }
+    
+    .trip_info {
+        font-size: 14px;
+    }
+    
+    .decorative_img {
+        display: none;
+    }
+    
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    /* booking */
+    .booking {
+        width: 90%;
+        margin-top: 4rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    
+    .left_booking_content {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .left_booking_content h6 {
+        font-size: 16px;
+    }
+    
+    .left_booking_content h1 {
+        font-size: 32px;
+        margin-bottom: 1.5rem;
+    }
+    
+    .booking_icons {
+        width: 90%;
+    }
+    
+    .icons_img {
+        justify-content: flex-start;
+        text-align: left;
+    }
+    
+    .icon_text p br {
+        display: none;
+    }
+    
+    .right_booking_content {
+        width: 90%;
+        margin-bottom: 8rem;
+    }
+    
+    .booking_card {
+        width: 100%;
+        padding: 1.5rem;
+    }
+    
+    .booking_card2 {
+        right: -10%;
+        bottom: 10%;
+        scale: 0.9;
+    }
+
+    /* Testimonials */
+    .Testimonials {
+        width: 90%;
+        margin-top: 4rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    
+    .left_text_Testimonials {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .left_text_Testimonials h5 {
+        font-size: 16px;
+    }
+    
+    .left_text_Testimonials h1 {
+        font-size: 32px;
+        margin-bottom: 1.5rem;
+    }
+    
+    .dots {
+        justify-content: center;
+    }
+    
+    .right_slide_show {
+        width: 95%;
+        height: auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .right_slide_show img {
+        position: relative;
+    }
+    
+    .testimonials_card {
+        position: relative;
+        width: 100%;
+    }
+    
+    .testimonials_card_text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .testimonials_card_text p br {
+        display: none;
+    }
+    
+    .testimonials_card2 {
+        top: 45%;
+    }
+    
+    .arrows {
+        position: relative;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3rem;
+        margin-top: 3rem;
+    }
+
+    /* flights */
+    .flights {
+        width: 90%;
+        margin-top: 4rem;
+    }
+    
+    .flight_container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        row-gap: 2rem;
+    }
+    
+    .flight_container a {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .flights img {
+        max-width: 80%;
+    }
+
+    /* sub */
+    .subscription {
+        width: 95%;
+        height: auto;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+    .subscription_whole {
+        width: 95%;
+        padding: 2rem 1rem;
+        gap: 2.5rem;
+        border-radius: 60px 20px 20px 20px;
+        position: relative;
+    }
+    
+    .subscription h2 {
+        font-size: 22px;
+        line-height: 34px;
+        margin-top: 1rem;
+    }
+    
+    .subscription h2 br {
+        display: none;
+    }
+    
+    .subscription_content {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+    
+    .email {
+        width: 90%;
+        height: 55px;
+    }
+    
+    .Subscribe_button {
+        width: 90%;
+        max-width: 180px;
+        height: 55px;
+        font-size: 15px;
+    }
+    
+    .telegram_img {
+        right: 2%;
+        top: -4%;
+        transform: scale(0.7);
+    }
+    
+    .row2 {
+        position: absolute;
+        bottom: -15%;
+    }
+
+    /* footer */
+    footer {
+        width: 90%;
+        height: auto;
+        margin-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    
+    .whole_footer_content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3.5rem;
+    }
+    
+    .first_sections {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .second_sections, .third_sections, .fourth_sections {
+        width: 20%;
+        text-align: center;
+    }
+    
+    .fifth_sections {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    .social_icons img {
+        width: 80%;
+    }
+    
+    .app_img {
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .app_img img {
+        width: 45%;
+    }
+    
+    footer h6 {
+        margin-top: 2.5rem;
+    }
+}
+/* start media querey*/
