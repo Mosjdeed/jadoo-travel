@@ -1,12 +1,13 @@
 # Jadoo Travel Website
 
-![image](https://github.com/user-attachments/assets/95fda4f4-f8ca-4063-9f93-4dbf43dbfae3)
+![image](https://github.com/user-attachments/assets/5a8d5230-fa54-4ce5-a595-677b8f67160b)
+
 
 ## Overview
 A responsive travel and tourism website designed with modern UI/UX principles, offering an intuitive booking experience for travelers looking to explore destinations around the world.
 
 ## Live Demo
-[Live Demo](https://mosjdeed.github.io/jadoo-travel-website/)
+[Live Demo](https://mosjdeed.github.io/jadoo-travel/)
 
 ## Technologies Used
 - HTML5
