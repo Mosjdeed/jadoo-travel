@@ -21,6 +21,9 @@ A responsive travel and tourism website designed with modern UI/UX principles, o
 
 ## Installation and Setup
 1. Clone the repository:
+```bash
+git clone https://github.com/Mosjdeed/jadoo-travel.git
+```
 2. Open `index.html` in your browser
 - For development, use the unminified CSS version in `css/style.css`
 - For production, the minified version `css/style.min.css` is referenced in the HTML
